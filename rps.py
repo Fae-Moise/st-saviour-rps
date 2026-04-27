@@ -38,8 +38,8 @@ if __name__ == '__main__':
             print('you lose!')
                 
             if response == 'paper' and computer == 'paper':
-                    print('you tie!')
-                    if response == 'paper' and computer == 'rock':
+                print('you tie!')
+                if response == 'paper' and computer == 'rock':
                         print('you win!')
-                    if response == 'paper' and computer == 'scissors':
+                if response == 'paper' and computer == 'scissors':
                         print ('you lose!')
